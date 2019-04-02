@@ -103,3 +103,37 @@ function doSpotifyThisSong(song) {
         }
     });
 }
+
+// Get movie information from OMDB
+function doMovieThis(movie) {
+    // If no movie provided, default to Mr. Nobody
+    var queryUrl = "http://www.omdbapi.com/?apikey=trilogy&t=" + (movie == "" ? "Mr. Nobody" : movie);
+    axios.get(queryUrl)
+        .then(function (response) {
+            // console.log(response);
+            var data = response.data;
+            if (data.Response == "False") {
+                // Movie not found
+                console.log("We're sorry, the movie '" + movie + "' doesn't seem to exist.");
+            } else {
+                // Print movie information
+                console.log("------------------------------------");
+                console.log("Title: " + data.Title);
+                console.log("Release Year: " + data.Year);
+                console.log("IMDB Rating: " + data.Ratings[0].Value);
+                console.log("Rotten Tomatoes Rating: " + data.Ratings[1].Value);
+                console.log("Produced in: " + data.Country);
+                console.log("Language: " + data.Language);
+                console.log("Plot: " + data.Plot);
+                console.log("Actors and Actresses: " + data.Actors);
+            }
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
+}
+
+// Read from random.txt file
+function doWhatItSays() {
+    
+}
