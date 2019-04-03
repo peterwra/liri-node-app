@@ -19,7 +19,20 @@ var fs = require("fs");
 // Moment library
 var moment = require("moment");
 
+// Log file to store commands and results
+var logFile = "./log.txt";
+
+// Function to write out log file and console.log data
+function writeLog(data) {
+    console.log(data);
+    fs.appendFileSync(logFile, data+"\n");
+}
+
 // Get user choice and search item
+if (process.argv[2]==undefined){
+    writeLog("You didn't give me a command");
+    return 0;
+}
 var userChoice = process.argv[2].toLowerCase();
 var searchItem = "";
 for (var i = 3; i < process.argv.length; i++) {
@@ -28,7 +41,8 @@ for (var i = 3; i < process.argv.length; i++) {
 
 // Call function based on user choice
 function userSelection() {
-    console.log("My new userChoice: " + userChoice);
+    writeLog("Selection: " + userChoice);
+    writeLog("Search Item: " + searchItem);
     switch (userChoice) {
         case "help":
             console.log("The following options are valid:");
@@ -51,35 +65,39 @@ function userSelection() {
             doWhatItSays(searchItem);
             break;
         default:
-            console.log("You gave me '" + userChoice + "' which is not a valid option. Enter 'node liri help' to display valid options.");
+            writeLog("You gave me '" + userChoice + "' which is not a valid option. Enter 'node liri help' to display valid options.");
     }
 }
 
 // Look up the concert information for the artist
 function doConcertThis(artist) {
+    if (artist=="") {
+        writeLog("You didn't provide an artist.");
+        return 0;
+    }
     var queryUrl = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
     axios.get(queryUrl)
         .then(function (response) {
             var data = response.data;
             if (data == "\n{warn=Not found}\n") {
                 // Artist not found
-                console.log("We're sorry, artist '" + artist + "' doesn't seem to exist.");
+                writeLog("We're sorry, artist '" + artist + "' doesn't seem to exist.");
             } else if (data.length == 0) {
                 // No planned concerts
-                console.log("We're sorry, '" + artist + "' does not have any planned concerts right now.")
+                writeLog("We're sorry, '" + artist + "' does not have any planned concerts right now.")
             } else {
                 // Print concert information
                 for (var i = 0; i < data.length; i++) {
                     var concertDate = moment(data[i].datetime).format("MM/DD/YYYY");
-                    console.log("------------------------------------");
-                    console.log("Venue Name: " + data[i].venue.name);
-                    console.log("Venue Location: " + data[i].venue.city + ", " + data[i].venue.country);
-                    console.log("Event Date: " + concertDate);
+                    writeLog("------------------------------------");
+                    writeLog("Venue Name: " + data[i].venue.name);
+                    writeLog("Venue Location: " + data[i].venue.city + ", " + data[i].venue.country);
+                    writeLog("Event Date: " + concertDate);
                 }
             }
         })
         .catch(function (error) {
-            console.log(error);
+            writeLog(error);
         });
 }
 
@@ -101,11 +119,11 @@ function doSpotifyThisSong(song) {
             var songName = response[i].name;
             var previewLink = response[i].album.external_urls.spotify;
             var album = response[i].album.name;
-            console.log("------------------------------------");
-            console.log("Artist: " + artist);
-            console.log("Song Name: " + songName);
-            console.log("Spotify Preview Link: " + previewLink);
-            console.log("Album: " + album);
+            writeLog("------------------------------------");
+            writeLog("Artist: " + artist);
+            writeLog("Song Name: " + songName);
+            writeLog("Spotify Preview Link: " + previewLink);
+            writeLog("Album: " + album);
         }
     });
 }
@@ -116,26 +134,25 @@ function doMovieThis(movie) {
     var queryUrl = "http://www.omdbapi.com/?apikey=trilogy&t=" + (movie == "" ? "Mr. Nobody" : movie);
     axios.get(queryUrl)
         .then(function (response) {
-            // console.log(response);
             var data = response.data;
             if (data.Response == "False") {
                 // Movie not found
-                console.log("We're sorry, the movie '" + movie + "' doesn't seem to exist.");
+                writeLog("We're sorry, the movie '" + movie + "' doesn't seem to exist.");
             } else {
                 // Print movie information
-                console.log("------------------------------------");
-                console.log("Title: " + data.Title);
-                console.log("Release Year: " + data.Year);
-                console.log("IMDB Rating: " + data.Ratings[0].Value);
-                console.log("Rotten Tomatoes Rating: " + data.Ratings[1].Value);
-                console.log("Produced in: " + data.Country);
-                console.log("Language: " + data.Language);
-                console.log("Plot: " + data.Plot);
-                console.log("Actors and Actresses: " + data.Actors);
+                writeLog("------------------------------------");
+                writeLog("Title: " + data.Title);
+                writeLog("Release Year: " + data.Year);
+                writeLog("IMDB Rating: " + data.Ratings[0].Value);
+                writeLog("Rotten Tomatoes Rating: " + data.Ratings[1].Value);
+                writeLog("Produced in: " + data.Country);
+                writeLog("Language: " + data.Language);
+                writeLog("Plot: " + data.Plot);
+                writeLog("Actors and Actresses: " + data.Actors);
             }
         })
         .catch(function (error) {
-            console.log(error);
+            writeLog(error);
         });
 }
 
@@ -145,8 +162,8 @@ function doWhatItSays() {
         if (error) {
             return console.log("There was a problem reading the file.");
         }
-        // Display the contents of the file for debugging purposes
-        console.log(contents);
+        // Write the contents of the file for debugging purposes
+        writeLog(contents);
 
         // Split the data into separat pieces
         var dataArray = contents.split(",");

@@ -1,0 +1,480 @@
+You didn't give me a command
+Selection: test
+Search Item: 
+You gave me 'test' which is not a valid option. Enter 'node liri help' to display valid options.
+Selection: help
+Search Item: 
+Selection: concert-this
+Search Item: 
+Error: Request failed with status code 400
+Selection: concert-this
+Search Item: 
+You didn't provide an artist.
+You didn't give me a command
+Selection: test
+Search Item: 
+You gave me 'test' which is not a valid option. Enter 'node liri help' to display valid options.
+Selection: help
+Search Item: 
+Selection: concert-this
+Search Item: 
+You didn't provide an artist.
+Selection: concert-this
+Search Item: weezer
+------------------------------------
+Venue Name: Ford Idaho Center Arena
+Venue Location: Nampa, United States
+Event Date: 04/05/2019
+------------------------------------
+Venue Name: Moda Center
+Venue Location: Portland, United States
+Event Date: 04/06/2019
+------------------------------------
+Venue Name: Rogers Arena 
+Venue Location: Vancouver, Canada
+Event Date: 04/07/2019
+------------------------------------
+Venue Name: Golden 1 Center
+Venue Location: Sacramento, United States
+Event Date: 04/09/2019
+------------------------------------
+Venue Name: Oracle Arena
+Venue Location: Oakland, United States
+Event Date: 04/10/2019
+------------------------------------
+Venue Name: Mandalay Bay Events Center
+Venue Location: Las Vegas, United States
+Event Date: 04/12/2019
+------------------------------------
+Venue Name: Coachella
+Venue Location: Indio, United States
+Event Date: 04/13/2019
+------------------------------------
+Venue Name: Coachella
+Venue Location: Indio, United States
+Event Date: 04/20/2019
+------------------------------------
+Venue Name: Riverbend Festival
+Venue Location: Chattanooga, United States
+Event Date: 05/29/2019
+------------------------------------
+Venue Name: Rock Werchter 2019
+Venue Location: Werchter, Belgium
+Event Date: 06/28/2019
+------------------------------------
+Venue Name: O2 Academy Brixton
+Venue Location: London, United Kingdom
+Event Date: 06/29/2019
+------------------------------------
+Venue Name: Stadtpark
+Venue Location: Hamburg, Germany
+Event Date: 07/02/2019
+------------------------------------
+Venue Name: Tivoli Vredenburg
+Venue Location: Utrecht, Netherlands
+Event Date: 07/04/2019
+------------------------------------
+Venue Name: Eurockéennes
+Venue Location: Belfort, France
+Event Date: 07/06/2019
+------------------------------------
+Venue Name: Sonic Park 
+Venue Location: Bologna, Italy
+Event Date: 07/07/2019
+------------------------------------
+Venue Name: Xtra
+Venue Location: Zurich, Switzerland
+Event Date: 07/08/2019
+------------------------------------
+Venue Name: NOS Alive Festival
+Venue Location: Oeiras, Portugal
+Event Date: 07/11/2019
+------------------------------------
+Venue Name: Bilbao BBK (July 11th-13th, Single Day TBA)
+Venue Location: Bilbao, Spain
+Event Date: 07/13/2019
+------------------------------------
+Venue Name: Grönan Live
+Venue Location: Stockholm, Sweden
+Event Date: 07/16/2019
+------------------------------------
+Venue Name: Bukta Open Air Festival (July 18th-20th, Single Day TBA)
+Venue Location: Tromsø, Norway
+Event Date: 07/18/2019
+------------------------------------
+Venue Name: Malakoff Festival (July 18th-20th, Single Day TBA)
+Venue Location: Nordfjordeid (sogn Og Fjordane), Norway
+Event Date: 07/20/2019
+------------------------------------
+Venue Name: Musikfest
+Venue Location: Bethlehem, United States
+Event Date: 08/05/2019
+------------------------------------
+Venue Name: ZOZO Marine Stadium
+Venue Location: Chiba-shi, Japan
+Event Date: 08/16/2019
+------------------------------------
+Venue Name: Maishima Sports Island
+Venue Location: Ōsaka-shi, Japan
+Event Date: 08/18/2019
+------------------------------------
+Venue Name: Jazz Aspen Snowmass
+Venue Location: Snowmass, United States
+Event Date: 08/30/2019
+------------------------------------
+Venue Name: Washington State Fair
+Venue Location: Puyallup, United States
+Event Date: 09/01/2019
+------------------------------------
+Venue Name: Movistar Arena
+Venue Location: Santiago, Chile
+Event Date: 09/24/2019
+------------------------------------
+Venue Name: Rock in Rio
+Venue Location: Rio De Janeiro, Brazil
+Event Date: 09/28/2019
+------------------------------------
+Venue Name: Estadio El Campín
+Venue Location: Bogotá, Colombia
+Event Date: 10/01/2019
+------------------------------------
+Venue Name: Estadio Nacional de Costa Rica
+Venue Location: San José, Costa Rica
+Event Date: 10/04/2019
+Selection: concert-this
+Search Item: rafi
+We're sorry, 'rafi' does not have any planned concerts right now.
+Selection: concert-this
+Search Item: coolcatintown
+We're sorry, artist 'coolcatintown' doesn't seem to exist.
+Selection: spotify-this-song
+Search Item: the promise
+------------------------------------
+Artist: Siddharth Mahadevan
+Song Name: The Promise - Baghtos Kay Mujra Kar
+Spotify Preview Link: https://open.spotify.com/album/2JlTGlvXcCLGNCt6Hwv4QW
+Album: Baghtos Kay Mujra Kar (Original Motion Picture Soundtrack)
+------------------------------------
+Artist: Future
+Song Name: Promise U That
+Spotify Preview Link: https://open.spotify.com/album/3LpIwZdzFwc10psLingT8x
+Album: Future Hndrxx Presents: The WIZRD
+------------------------------------
+Artist: Kid Ink
+Song Name: Promise (feat. Fetty Wap)
+Spotify Preview Link: https://open.spotify.com/album/6uG9BscYmPnAbtl6Cy9u91
+Album: Summer In The Winter
+------------------------------------
+Artist: When In Rome
+Song Name: The Promise
+Spotify Preview Link: https://open.spotify.com/album/3kt903x5U5IWJlwHyE481x
+Album: When In Rome
+------------------------------------
+Artist: Ciara
+Song Name: Promise
+Spotify Preview Link: https://open.spotify.com/album/0hfJ35SzCkWesdUpLKXLto
+Album: The Evolution
+------------------------------------
+Artist: The Avett Brothers
+Song Name: Head Full Of Doubt/Road Full Of Promise
+Spotify Preview Link: https://open.spotify.com/album/2PPFtYUnnqMYflIEn3b7ON
+Album: I And Love And You
+------------------------------------
+Artist: Elevation Worship
+Song Name: God of the Promise
+Spotify Preview Link: https://open.spotify.com/album/3gFcCl38Vch9JlHDP2WktC
+Album: Hallelujah Here Below
+------------------------------------
+Artist: Sturgill Simpson
+Song Name: The Promise
+Spotify Preview Link: https://open.spotify.com/album/4makbOuLd5SUdyHMaNM1Ag
+Album: Metamodern Sounds in Country Music
+------------------------------------
+Artist: Sade
+Song Name: The Sweetest Taboo
+Spotify Preview Link: https://open.spotify.com/album/4wyIhW3v0MeP9jIElOMiXR
+Album: Promise
+------------------------------------
+Artist: Bruce Springsteen
+Song Name: The Promise - Live at the Palace Theatre, Albany, NY - 02/07/77
+Spotify Preview Link: https://open.spotify.com/album/7KjwEL0bOtyfrk52znavIC
+Album: The Live Series: Songs of Hope
+------------------------------------
+Artist: Secret Garden
+Song Name: The Promise
+Spotify Preview Link: https://open.spotify.com/album/2eN8YvScDsyeabpWKCXIvu
+Album: Once In A Red Moon
+------------------------------------
+Artist: Tracy Chapman
+Song Name: The Promise
+Spotify Preview Link: https://open.spotify.com/album/3XsOzkIBoHsxZ7jP3QF2oB
+Album: New Beginning
+------------------------------------
+Artist: Superfruit
+Song Name: The Promise
+Spotify Preview Link: https://open.spotify.com/album/3uFrdKz1eF9gmQBC9MAFzu
+Album: The Promise
+------------------------------------
+Artist: Lukas Graham
+Song Name: Promise
+Spotify Preview Link: https://open.spotify.com/album/02gV87QEIFp2T9q7OqVBjj
+Album: 3 (The Purple Album)
+------------------------------------
+Artist: New Found Glory
+Song Name: The Promise
+Spotify Preview Link: https://open.spotify.com/album/7ECsdDS1qBfaENSAaD8qsS
+Album: From The Screen To Your Stereo Part II
+------------------------------------
+Artist: In This Moment
+Song Name: The Promise
+Spotify Preview Link: https://open.spotify.com/album/2byvabkqGEA7G4viYaoOlp
+Album: A Star-Crossed Wasteland
+------------------------------------
+Artist: Chris Cornell
+Song Name: The Promise
+Spotify Preview Link: https://open.spotify.com/album/44xvS1Lm42hYEMorJxwQ7z
+Album: The Promise
+------------------------------------
+Artist: Promise Land
+Song Name: The Love
+Spotify Preview Link: https://open.spotify.com/album/0JeirAOhmQ0cIx2omamDc9
+Album: The Love
+------------------------------------
+Artist: Andy Black
+Song Name: The Promise
+Spotify Preview Link: https://open.spotify.com/album/6nPN0FOrQM9tTzmNNKotGP
+Album: The Promise
+------------------------------------
+Artist: Steffany Gretzinger
+Song Name: Promise I Always Will
+Spotify Preview Link: https://open.spotify.com/album/3Fw3TlMk1XiUQlaIBMhNgt
+Album: The Undoing
+Selection: spotify-this-song
+Search Item: 
+------------------------------------
+Artist: Harry Styles
+Song Name: Sign of the Times
+Spotify Preview Link: https://open.spotify.com/album/1FZKIm3JVDCxTchXDo5jOV
+Album: Harry Styles
+------------------------------------
+Artist: Lil Wayne
+Song Name: Scared of the Dark (feat. XXXTENTACION)
+Spotify Preview Link: https://open.spotify.com/album/35s58BRTGAEWztPo9WqCIs
+Album: Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture)
+------------------------------------
+Artist: Rich The Kid
+Song Name: Woah (feat. Miguel & Ty Dolla $ign)
+Spotify Preview Link: https://open.spotify.com/album/6GDXnx6AUDGH0tpxXQX0Kn
+Album: The World Is Yours 2
+------------------------------------
+Artist: Ty Dolla $ign
+Song Name: Or Nah (feat. The Weeknd, Wiz Khalifa & DJ Mustard) - Remix
+Spotify Preview Link: https://open.spotify.com/album/3SHx7bBQFI4J8QRr6D5cOK
+Album: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) [Remix Version]
+------------------------------------
+Artist: Jeremih
+Song Name: Impatient
+Spotify Preview Link: https://open.spotify.com/album/7DMyQuDPe8xzjC0UDSDa96
+Album: Late Nights: The Album
+------------------------------------
+Artist: Rich The Kid
+Song Name: Woah (feat. Miguel & Ty Dolla $ign)
+Spotify Preview Link: https://open.spotify.com/album/5uetcjHDfOYrMQtKeSdScN
+Album: The World Is Yours 2
+------------------------------------
+Artist: Jeremih
+Song Name: The Light
+Spotify Preview Link: https://open.spotify.com/album/2dPMOEn0BkN8qpGVuuA3GT
+Album: The Light
+------------------------------------
+Artist: Quality Control
+Song Name: Movin’ Up
+Spotify Preview Link: https://open.spotify.com/album/07Jvk8tGuaMhR4H72znlLJ
+Album: Quality Control: Control The Streets Volume 1
+------------------------------------
+Artist: Harry Styles
+Song Name: Sign of the Times
+Spotify Preview Link: https://open.spotify.com/album/6YDkzHVTEzMXZOVd1r5NqR
+Album: Sign of the Times
+------------------------------------
+Artist: Ace of Base
+Song Name: The Sign
+Spotify Preview Link: https://open.spotify.com/album/5UwIyIyFzkM7wKeGtRJPgB
+Album: The Sign (US Album) [Remastered]
+------------------------------------
+Artist: Mac Miller
+Song Name: Cinderella (feat. Ty Dolla $ign)
+Spotify Preview Link: https://open.spotify.com/album/6f6tko6NWoH00cyFOl4VYQ
+Album: The Divine Feminine
+------------------------------------
+Artist: Ty Dolla $ign
+Song Name: Love U Better (feat. Lil Wayne & The-Dream)
+Spotify Preview Link: https://open.spotify.com/album/7Dj0aaKI4RpehMPqOu56mW
+Album: Beach House 3
+------------------------------------
+Artist: 2 Chainz
+Song Name: Girl's Best Friend (feat. Ty Dolla $ign)
+Spotify Preview Link: https://open.spotify.com/album/1BR69wIifGZUSimcuTjWVg
+Album: Rap Or Go To The League
+------------------------------------
+Artist: Lil Durk
+Song Name: 100 Grand (feat. Ty Dolla $ign & A Boogie wit da Hoodie)
+Spotify Preview Link: https://open.spotify.com/album/3EwMFeUkcp36t9IVJ8d54q
+Album: Signed To The Streets 3
+------------------------------------
+Artist: Ty Dolla $ign
+Song Name: Droptop in the Rain (feat. Tory Lanez)
+Spotify Preview Link: https://open.spotify.com/album/7Dj0aaKI4RpehMPqOu56mW
+Album: Beach House 3
+------------------------------------
+Artist: Coldplay
+Song Name: Warning Sign
+Spotify Preview Link: https://open.spotify.com/album/0RHX9XECH8IVI3LNgWDpmQ
+Album: A Rush Of Blood To The Head
+------------------------------------
+Artist: Ace of Base
+Song Name: All That She Wants
+Spotify Preview Link: https://open.spotify.com/album/5UwIyIyFzkM7wKeGtRJPgB
+Album: The Sign (US Album) [Remastered]
+------------------------------------
+Artist: Lil Wayne
+Song Name: Sucker For Pain (with Wiz Khalifa, Imagine Dragons, Logic & Ty Dolla $ign feat. X Ambassadors)
+Spotify Preview Link: https://open.spotify.com/album/5rOHrnrRomvSJhQLGVtfJ8
+Album: Suicide Squad: The Album
+------------------------------------
+Artist: Juicy J
+Song Name: Shell Shocked (feat. Kill The Noise & Madsonik) - From "Teenage Mutant Ninja Turtles"
+Spotify Preview Link: https://open.spotify.com/album/1wJ0LO5PnMZDTrWR2C7qQ8
+Album: Shell Shocked (feat. Kill The Noise & Madsonik) [From "Teenage Mutant Ninja Turtles"]
+------------------------------------
+Artist: MAX
+Song Name: The Other Side (with MAX & Ty Dolla $ign)
+Spotify Preview Link: https://open.spotify.com/album/4dPosP4Io4sDCmeiCxVHW0
+Album: The Greatest Showman: Reimagined
+Selection: movie-this
+Search Item: 
+------------------------------------
+Title: Mr. Nobody
+Release Year: 2009
+IMDB Rating: 7.8/10
+Rotten Tomatoes Rating: 67%
+Produced in: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors and Actresses: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+Selection: movie-this
+Search Item: ghostbusters
+------------------------------------
+Title: Ghostbusters
+Release Year: 1984
+IMDB Rating: 7.8/10
+Rotten Tomatoes Rating: 97%
+Produced in: USA
+Language: English
+Plot: Three former parapsychology professors set up shop as a unique ghost removal service.
+Actors and Actresses: Bill Murray, Dan Aykroyd, Sigourney Weaver, Harold Ramis
+Selection: do-what-it-says
+Search Item: 
+spotify-this-song,"Bananaphone"
+Selection: spotify-this-song
+Search Item: "Bananaphone"
+------------------------------------
+Artist: Raffi
+Song Name: Bananaphone
+Spotify Preview Link: https://open.spotify.com/album/1y772v6xDzzRWlaYWcNWHq
+Album: Bananaphone
+------------------------------------
+Artist: Raffi
+Song Name: Bananaphone
+Spotify Preview Link: https://open.spotify.com/album/3GaCPXbadjZUQrawtkIZuR
+Album: Best Of Raffi
+------------------------------------
+Artist: Raffi
+Song Name: Michael Row The Boat Ashore
+Spotify Preview Link: https://open.spotify.com/album/1y772v6xDzzRWlaYWcNWHq
+Album: Bananaphone
+------------------------------------
+Artist: Raffi
+Song Name: Shake A Toe
+Spotify Preview Link: https://open.spotify.com/album/1y772v6xDzzRWlaYWcNWHq
+Album: Bananaphone
+------------------------------------
+Artist: Raffi
+Song Name: Bananaphone
+Spotify Preview Link: https://open.spotify.com/album/24wfwTCNevTGgV2acA4jhR
+Album: Fun Food Songs
+------------------------------------
+Artist: Naptime
+Song Name: Bananaphone (Instrumental)
+Spotify Preview Link: https://open.spotify.com/album/62Jl9YZkNfNOTB8IQiljgu
+Album: Naptime
+------------------------------------
+Artist: Raffi
+Song Name: The World We Love
+Spotify Preview Link: https://open.spotify.com/album/1y772v6xDzzRWlaYWcNWHq
+Album: Bananaphone
+------------------------------------
+Artist: Baby La La Byes
+Song Name: Bananaphone (Raffi) - Instrumental
+Spotify Preview Link: https://open.spotify.com/album/0NBJYEMuqhDljlpF7Fg7UY
+Album: Newborn Lullabyes 2
+------------------------------------
+Artist: Raffi
+Song Name: The Gorilla Song
+Spotify Preview Link: https://open.spotify.com/album/1y772v6xDzzRWlaYWcNWHq
+Album: Bananaphone
+------------------------------------
+Artist: Raffi
+Song Name: Slow Day
+Spotify Preview Link: https://open.spotify.com/album/1y772v6xDzzRWlaYWcNWHq
+Album: Bananaphone
+------------------------------------
+Artist: Nap Time
+Song Name: Bananaphone (Instrumental)
+Spotify Preview Link: https://open.spotify.com/album/6B0bfHppwoH2jmZIhpzs1x
+Album: Nap Time
+------------------------------------
+Artist: Raffi
+Song Name: The Changing Garden Of Mr. Bell
+Spotify Preview Link: https://open.spotify.com/album/1y772v6xDzzRWlaYWcNWHq
+Album: Bananaphone
+------------------------------------
+Artist: Raffi
+Song Name: C-A-N-A-D-A
+Spotify Preview Link: https://open.spotify.com/album/1y772v6xDzzRWlaYWcNWHq
+Album: Bananaphone
+------------------------------------
+Artist: Raffi
+Song Name: Naturally
+Spotify Preview Link: https://open.spotify.com/album/1y772v6xDzzRWlaYWcNWHq
+Album: Bananaphone
+------------------------------------
+Artist: Lullabyes
+Song Name: Bananaphone (Instrumental)
+Spotify Preview Link: https://open.spotify.com/album/1YRSOPch5sXYFMZpUy0xcp
+Album: Daycare Lullabyes
+------------------------------------
+Artist: Raffi
+Song Name: Down By The Riverside
+Spotify Preview Link: https://open.spotify.com/album/1y772v6xDzzRWlaYWcNWHq
+Album: Bananaphone
+------------------------------------
+Artist: Raffi
+Song Name: Spring Flowers
+Spotify Preview Link: https://open.spotify.com/album/1y772v6xDzzRWlaYWcNWHq
+Album: Bananaphone
+------------------------------------
+Artist: Preschool Nap Time
+Song Name: Bananaphone (Instrumental)
+Spotify Preview Link: https://open.spotify.com/album/13S1jMo0pb14ZhpX8D5IXr
+Album: Preschool Nap Time
+------------------------------------
+Artist: Raffi
+Song Name: Simple Gifts
+Spotify Preview Link: https://open.spotify.com/album/1y772v6xDzzRWlaYWcNWHq
+Album: Bananaphone
+------------------------------------
+Artist: Raffi
+Song Name: First Peoples
+Spotify Preview Link: https://open.spotify.com/album/1y772v6xDzzRWlaYWcNWHq
+Album: Bananaphone
